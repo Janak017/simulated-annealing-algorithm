@@ -2,6 +2,16 @@
 
 A Python implementation of simulated annealing for solving a travelling salesperson problem using 20 cities in Nepal. The program compares an initial random route with the best route found and demonstrates how temperature affects acceptance of worse solutions.
 
+## Folder Structure
+
+```text
+simulated_annealing/
+├── .gitignore
+├── README.md
+└── main/
+	└── main.py
+```
+
 ## Requirements
 
 - Python 3.9 or newer
@@ -35,5 +45,3 @@ The script prints route statistics and creates these generated plots in the curr
 - `plot_5_temperature_acceptance_comparison.png`
 
 The route coordinates are stored directly in `main/main.py`. Configuration values such as the cooling rate, temperature limits, and random seed can be adjusted near the top of that file.
-
-# simulated-annealing-algorithm
